@@ -1,0 +1,89 @@
+.simulator_container {
+    
+}
+
+
+.simulator_select_title 
+{
+    font-size:17px;
+    color:#888888;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-family:Georgia;
+    text-transform:uppercase;
+    
+}
+
+.simulator_select_container {
+
+}
+
+.simulator_select
+{
+    margin:5px;
+    margin-bottom:20px;
+    width:140px;
+    text-align:center;
+    float:left;
+    height:200px;
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+
+.simulator_select_name
+{
+    color:#555555;
+    font-family:Verdana;
+    font-size:10px;
+    margin-top:4px;
+}
+
+.simulator_select img
+{
+    display:inline;
+}
+
+
+.active_device {
+    font-weight:bold;
+    color:#000000 !important;
+    opacity:1;
+}
+
+
+.simulator_devices_container {
+
+}
+
+.simulator_device {
+    display:none;
+}
+
+.phone.portrait {
+    padding: 127px 26px;
+    width: 368px;
+    height: 724px;
+    height:500px;
+    background: url(img/iphone-p.jpg) no-repeat;
+}
+
+.phone.landscape {
+    padding: 22px 127px;
+    width: 724px;
+    width:500px;
+    height: 368px;
+    background: url(img/iphone-l.jpg) no-repeat;
+}
+
+.tablet.portrait {
+    padding: 83px 83px;
+    background: url(img/ipad-p.jpg) no-repeat;
+
+}
+
+.tablet.landscape {
+    padding: 79px 83px;
+    background: url(img/ipad-l.jpg) no-repeat;
+
+}
